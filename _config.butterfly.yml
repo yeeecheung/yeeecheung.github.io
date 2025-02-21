@@ -28,7 +28,7 @@ menu:
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
   生活 || fas fa-list:
-    分享: /shuoshuo/ || fa fa-comments-o
+    分享: /jottings/ || fa fa-comments-o
     相册: /photos/ || fa fa-camera-retro
     #音乐: /music/ || fa fa-music
     #影视: /movies/ || fas fa-video
@@ -184,6 +184,8 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 被发现了 (๑•̀ㅂ•́)و✧
+
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -213,7 +215,7 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   # Only for post
   style_simple: false
   scroll_percent: true
@@ -277,7 +279,7 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2025.2.18
+    since: 2025
   custom_text:
   # Copyright of theme and framework
   copyright: true
@@ -308,7 +310,7 @@ aside:
       link: https://github.com/yeeecheung
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: Undergoing vigorous evolution!
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -1130,3 +1132,10 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
+
+highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
+highlight_copy: true # 复制按钮
+highlight_lang: false # 是否显示代码语言
+highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
+highlight_height_limit: false # unit: px
+code_word_wrap: true #代码自动换行，关闭滚动条
